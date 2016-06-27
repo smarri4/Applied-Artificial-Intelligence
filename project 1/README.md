@@ -17,8 +17,8 @@ not recommended
 
 ###TEMPLATE DEFINITION
 
-`(deftemplate mushroom (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor)`
-    	`(slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
+`(deftemplate mushroom (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor)`\n
+    	`(slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`\n
 `(deftemplate poisonous (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot` `gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
 `(deftemplate edible (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot` `gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
 `(deftemplate not-recommended (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
