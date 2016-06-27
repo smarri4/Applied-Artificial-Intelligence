@@ -17,48 +17,48 @@ not recommended
 
 ###TEMPLATE DEFINITION
 
-(deftemplate mushroom (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor)
-    	(slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))
-(deftemplate poisonous (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))
-(deftemplate edible (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))
-(deftemplate not-recommended (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))
-(deftemplate unknown (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))
+`(deftemplate mushroom (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor)`
+    	`(slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
+`(deftemplate poisonous (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot` `gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
+`(deftemplate edible (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot` `gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
+`(deftemplate not-recommended (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
+`(deftemplate unknown (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
 
-(defglobal ?*a* = nil)
-(defglobal ?*b* = nil)
-(defglobal ?*c* = nil)
-(defglobal ?*d* = nil)
-(defglobal ?*e* = nil)
-(defglobal ?*f* = nil)
-(defglobal ?*g* = nil)
-(defglobal ?*h* = nil)
-(defglobal ?*i* = nil)
-(defglobal ?*j* = nil)
+`(defglobal ?*a* = nil)`
+`(defglobal ?*b* = nil)`
+`(defglobal ?*c* = nil)`
+`(defglobal ?*d* = nil)`
+`(defglobal ?*e* = nil)`
+`(defglobal ?*f* = nil)`
+`(defglobal ?*g* = nil)`
+`(defglobal ?*h* = nil)`
+`(defglobal ?*i* = nil)`
+`(defglobal ?*j* = nil)`
 
 
 
 ###	FACTS DEFINITION
 
-(deffacts initial-phase
-    (phase edible1)
-    (phase edible2)
-    (phase edible3)
-    (phase edible4)
-    (phase edible5)
-    (phase edible6)
-    (phase poisonous1)
-    (phase poisonous2)
-    (phase poisonous3)
-    (phase poisonous4)
-    (phase poisonous5)
-    (phase combination1)
-    (phase combination2)
-    (phase combination3)
-    (phase not-recommended1)
-    (phase not-recommended2)
-    (phase not-recommended3)
-    (phase unknown1)
-    (phase unknown2)
+`(deffacts initial-phase`
+    `(phase edible1)`
+    `(phase edible2)`
+    `(phase edible3)`
+    `(phase edible4)`
+    `(phase edible5)`
+    `(phase edible6)`
+    `(phase poisonous1)`
+    `(phase poisonous2)`
+    `(phase poisonous3)`
+    `(phase poisonous4)`
+    `(phase poisonous5)`
+    `(phase combination1)`
+    `(phase combination2)`
+    `(phase combination3)`
+    `(phase not-recommended1)`
+    `(phase not-recommended2)`
+    `(phase not-recommended3)`
+    `(phase unknown1)`
+    `(phase unknown2)`
     
     (mushroom (name augustus) (cap-shape b) (cap-surface g) (bruises f) (odor l))
     (mushroom  (name campestris) (cap-shape x) (cap-color y) (odor a))
