@@ -9,19 +9,14 @@ This data set includes descriptions of hypothetical samples corresponding to 23 
 	
 ### 3. Encoding the Knowledge Using Jess
 
-
---------------------------------------------------------------------------------------
-####** PoisonousMushroom Expert System **
---------------------------------------------------------------------------------------
+##### Outcomes
 edible
 poisonous
 unknown
 not recommended
 
---------------------------------------------------------------------------------------
 ###TEMPLATE DEFINITION
---------------------------------------------------------------------------------------
-`
+
 (deftemplate mushroom (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor)
     	(slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))
 (deftemplate poisonous (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))
@@ -39,12 +34,10 @@ not recommended
 (defglobal ?*h* = nil)
 (defglobal ?*i* = nil)
 (defglobal ?*j* = nil)
-`
 
---------------------------------------------------------------------------------------
+
 ###	FACTS DEFINITION
---------------------------------------------------------------------------------------
-'
+
 (deffacts initial-phase
     (phase edible1)
     (phase edible2)
@@ -94,4 +87,4 @@ not recommended
 	(mushroom (name aereus) (cap-surface y) (cap-color w) (gill-attachment s) (habitat g))
 
 )
-'
+
