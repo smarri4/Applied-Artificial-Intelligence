@@ -17,8 +17,8 @@ not recommended
 
 ###TEMPLATE DEFINITION
 
-`(deftemplate mushroom (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor)`\
-    	`(slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`\n
+`(deftemplate mushroom (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor)`
+    	`(slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
 `(deftemplate poisonous (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot` `gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
 `(deftemplate edible (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot` `gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
 `(deftemplate not-recommended (slot name) (slot cap-shape) (slot cap-surface) (slot cap-color) (slot bruises) (slot odor) (slot gill-attachment) (slot stalk-surface-above-ring) (slot ring-type) (slot population) (slot habitat))`
@@ -89,3 +89,7 @@ not recommended
 
 )
 
+### References :
+
+1.	https://archive.ics.uci.edu/ml/datasets/Mushroom
+2.	Schlimmer,J.S. (1987). Concept Acquisition Through Representational Adjustment (Technical Report 87-19). Doctoral disseration, Department of Information and Computer Science, University of California, Irvine.  [Web Link] 
