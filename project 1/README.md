@@ -36,10 +36,11 @@ not recommended
 (defglobal ?*j* = nil)
 
 
+
 ###	FACTS DEFINITION
 
-(deffacts 'initial-phase'
-    (phase `edible1`)
+(deffacts initial-phase
+    (phase edible1)
     (phase edible2)
     (phase edible3)
     (phase edible4)
